@@ -67,7 +67,7 @@ let StatusLoggedIn = React.createClass({
 
   render(){
     return (
-	<div><span className='alt-accounts-status-username'>{this.data.username}</span> <button onClick={this.handleClick}>{AltAccounts.config.text.logOutStatus}</button> </div>
+	<div style={{float: 'right'}}><span className='alt-accounts-status-username'>{this.data.username}</span> <button onClick={this.handleClick}>{AltAccounts.config.text.logOutStatus}</button> </div>
     )
   }
 })

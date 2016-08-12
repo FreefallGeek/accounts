@@ -1,4 +1,3 @@
-import React from 'react';
 
 AccountForm = React.createClass({
   mixins: [ReactMeteorData],
